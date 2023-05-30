@@ -1,0 +1,50 @@
+.footermainBox{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(8, 3, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerBox{
+    width: 450px;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 150px;
+}
+
+.footerText p{
+    color: rgb(82, 80, 80);
+}
+
+.footerText h3{
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icons div:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+.footerText{
+    width: 390px;
+    height: 40px;
+}

@@ -1,0 +1,65 @@
+.headermainBox {
+  width: 100%;
+  height: 900px;
+  background-image: url("https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp");
+
+display: flex;
+align-items: center;
+color: white;
+
+filter: brightness(0.7);
+}
+
+.headermainBox .headerBox {
+  width: 900px;
+  height: 400px;
+
+  margin-left: 200px;
+}
+
+.headerBox .headerText{
+  z-index: 999;
+}
+
+
+
+.headerBox .headerText h1 {
+  font-size: 50px;
+}
+
+.headerBox .headerText p {
+  font-size: 15px;
+}
+
+.headerBox .headerText .headerBtn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(253, 218, 22);
+  color: white;
+  border: none;
+}
+.headerBox .headerText .headerBtn:hover {
+  background-color: white;
+  color: rgb(253, 218, 22);
+  border: 1px solid rgb(253, 218, 22);
+}
+
+
+
+.servicemainBox{
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.serviceText h2{
+    font-size: 40px;
+}
+
+.serviceText p{
+    color: rgb(78, 76, 76);
+}

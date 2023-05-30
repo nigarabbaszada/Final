@@ -1,0 +1,63 @@
+.sectionmainBox{
+    width: 100%;
+    height: 700px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.sectionmainBox .sectionBox{
+    width: 350px;
+    height: 450px;
+    padding: 10px 20px;
+ 
+}
+
+.sectionmainBox .sectionBox:hover{
+    background-color: rgb(255, 217, 0);
+    transition: .5s;
+}
+
+
+.sectionmainBox .text{
+    width: 200px;
+    height: 50px;
+}
+
+
+
+.sectionBox .sectionImg{
+    width: 100%;
+    height: 50%;
+}
+
+.text{
+    width: 250px;
+    height: 50px;
+
+}
+
+.textBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sortBtn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    color: white;
+    border: 10px;
+}
+.sortBtn:hover{
+    background-color: white;
+    color: rgb(255, 174, 0) ;
+    border: 1px solid rgb(255, 174, 0);
+    transition: .5s;
+}
